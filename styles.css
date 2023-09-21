@@ -1,0 +1,82 @@
+* {
+	margin: 2px;
+	padding: 7px;
+	box-sizing: border-box;
+}
+
+h2.main-title {
+	margin-left: 248px;
+	margin-top: 16px;
+	text-transform: uppercase;
+}
+
+.card {
+	display: block;
+	width: 700px;
+	height: 280px;
+	border-radius: 8px;
+	border: 2px solid greenyellow;
+	margin: 1rem auto;
+}
+div.card.car1 > .left-panel {
+	float: left;
+}
+div.card.car1 > .right-panel {
+	float: right;
+}
+
+div.card.card2 > .left-panel {
+	float: left;
+}
+
+div.card.card2 > .right-panel {
+	float: right;
+}
+.footer {
+	display: block;
+	background-color: hsl(180, 60%, 77%);
+}
+
+body > main > footer {
+	width: 700px;
+	margin: 1rem auto;
+}
+
+div.card.car1,
+div.card.card2 {
+	margin-bottom: 0.75rem;
+}
+
+img {
+	width: 18vw;
+}
+table {
+	border-collapse: collapse;
+	position: relative;
+	bottom: 100px;
+	right: 22px;
+}
+
+tr {
+	border-bottom: 1pt solid rgb(227, 215, 215);
+}
+h3.town {
+	text-transform: capitalize;
+	letter-spacing: 1px;
+}
+.temp {
+	font-size: 40px;
+}
+div.current-temp {
+	position: relative;
+	top: 40px;
+	left: 20px;
+}
+a:hover {
+	color: white;
+	text-decoration: none;
+	/* background-color: rgb(17, 38, 31); */
+}
+.feels-like {
+	font-size: 22px;
+}
